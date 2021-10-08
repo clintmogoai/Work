@@ -1,0 +1,438 @@
+/* FONTS H1-H2 BEBAS NEAUVES H3 DOWN POPPINS*/
+h1{
+    font-family: 'Bebas Neue';
+    box-shadow: rgba(255, 232, 31);
+    font-size: 100px;
+    color: rgba(255, 232, 31);
+    display: block;
+    padding: 4px;
+    margin-left: 3px;
+}
+h2{
+    font-family: 'Bebas Neue';
+    font-size: 60px;
+    position: relative;
+    padding: 4px;
+    margin-left: 3px;
+    text-align: left;
+}
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+h4{
+    font-size: 30px ;
+    font-weight:500;
+    font-family: 'Poppins', sans-serif;
+}
+h5{
+    font-size: 30px;
+    font-weight: 400px;
+    font-family: 'Poppins', sans-serif;
+}
+h6{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 16px;
+    font-weight: 300px;
+    font-family: 'Poppins', sans-serif;
+    padding: 4px;
+    margin-left: 3px;
+    text-align: left;
+}
+body {
+  margin: 0px;
+  
+}
+/* nav-HEADER*/
+
+li{
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 500px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+.Navigation{
+  display: flex;
+  vertical-align: top;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+  position: relative;
+  background-color: #A0ACF2 ;
+  height: 70px;
+}
+.logo{
+}
+body, button, input {
+  letter-spacing: 1px;
+}
+#primaryNav{
+  width: auto;
+  padding: 1%;
+  margin-left: auto;
+  flex-direction: row;
+  display: flex;
+  vertical-align: top;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  list-style: none;
+  float: right;
+  color: white;
+}
+.topNav{
+  width: 73%%;
+  margin-left: auto;
+  vertical-align: top;
+  justify-content: space-evenly;
+  list-style: none;
+  flex-direction: row;
+  display: flex;
+  font-size: 20px;
+  cursor: pointer;
+}
+.topNav :hover{
+  color: #F59836;
+  }
+
+.heroImg{
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  bottom:auto
+  overflow: hidden;
+  position: relative;
+  text-align: right;
+}
+.heroContent{
+  position:absolute;
+  bottom: 100px;
+  text-align: left;
+  justify-content: ;
+  color: white;
+  padding: 20px;
+  align-items: 
+  align-content: flex-end;
+}
+.heroContent h4{
+  padding: 2px;
+
+}
+.heading{
+  max-width: 100%;
+  padding-top: -5px;
+  padding-bottom: 5px;
+  align-content: center;
+  padding-left: 30px;
+}
+.heroIMG{
+  max-width: 100%;
+}
+.heroContent h4{
+  padding: 2px;
+
+}
+.sectionHeading {
+  text-align: left;
+}
+.CaseNav {
+  background-color: #A0ACF2;
+  text-align: center;
+  align-content: center;
+  justify-content: center !important;
+}
+.skillsPics {
+  width: 90%;
+  padding: 25px;
+}
+.jumbotron {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  height: calc(100vh - 10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* FOOTER*/
+.quickLinks{
+    display: flex;
+    flex-direction: row;
+    list-style: none; 
+    text-align: center;
+    align-items: center;
+    float: left;
+    margin-left: 30px;
+    grid-area: quickLinks;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    list-style: none; 
+    align-items: right;
+    justify-content:flex-end;
+    margin-right: 80px;
+    cursor: pointer;
+}
+.footer{
+    background-color: #373738;
+    padding: 5px;
+    height: 95px;
+    color: white;
+    justify-content: center;
+    display: grid;
+    align-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "quickLinks" "socials"
+    "copyRight" "copyRight";
+}
+li{
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 500px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+li :hover{
+    color: #F59836;
+    transform: scale(1.5);
+}
+.quickLinks :hover{
+    color: #F59836;
+    transition: all;
+}
+}
+.socials :hover{
+    transform: scale(1.5);
+}
+.topNav :hover{
+  color: #F59836;
+  transition: all;
+}
+.copyRight{
+    justify-content: center;
+    background-color: black;
+    align-content: center;
+    color: white;
+    text-align: center;
+    grid-area: copyRight;
+    display: grid;
+    margin: 0;
+    padding: 5px;
+    height: 30px;
+}
+.copyRight p{
+    font-size: 12px;
+}
+/* MY WORK SECTION*/
+
+#recentWork{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.myWork{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "nfpwrd" "houseMate" "actNow";
+    
+}
+.workGrid{
+    display: grid;
+    grid-template-areas: "nfpwrd" "houseMate" "actNow";
+    grid-template-rows: 3fr;
+    grid-template-columns: 1fr;
+    padding: 20px;
+}
+#seeMore{
+    background-color: #F59836;
+    color: white !important;
+    height: 40px;
+    width: 110px;
+    border-style: groove;
+    border-radius: 10px;
+    font-size: 80%;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    grid-area: seeMore;
+   
+    cursor: pointer;
+}
+#seeMore a{
+    color: white;
+   
+} 
+
+#nfpwrd{
+    margin: auto;
+    padding: 20px;
+    background-color:rgba(255, 232, 31, .30) ;
+    align-items: flex-start;
+    max-width:none;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 180px 180px;
+    column-gap: 20px;
+    margin-top: 30px;
+}
+.bushFireWRD{
+    align-items: center;
+    justify-content: flex-end;
+    width: auto;
+}
+#bushCont{
+    align-items: flex-end;
+   
+}
+#houseMate{
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(252, 201, 78, .30);
+    margin-top: 30px;
+    align-items: flex-start;
+    max-width: none;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 180px 180px;
+    column-gap: 20px;
+    grid-template-areas: 
+    " houseMateimg"
+    "seeMore houseMateimg";
+}
+.houseMateimg{
+    grid-area: houseMateimg;
+    box-shadow: #373738,;
+    -webkit-box-shadow: 4px 1px 2px 2px #c4c4c4;  
+    -moz-box-shadow: #c4c4c4 1px 2px 10px 2px;  
+    box-shadow: #c4c4c4 0px 5px 3px 2px;
+}
+
+#actNow{
+    margin: auto;
+    padding: 20px;
+    background-color: #b7b0e84d;
+    margin-top: 20px;
+    align-items: flex-start;
+    max-width: none;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 180px 180px;
+    grid-template-areas: 
+    "ActNow"
+    "ActNow seeMore" ;
+    column-gap: 20px;
+    
+}
+.ActNow {
+    
+    -webkit-box-shadow: 4px 1px 2px 2px #c4c4c4;  
+    -moz-box-shadow: #c4c4c4 1px 2px 10px 2px;  
+    box-shadow: #c4c4c4 0px 5px 3px 2px;
+}
+#Recomondo{
+    margin: auto;
+    padding: 20px;
+    background-color: #b7b0e84d;
+    margin-top: 30px;
+    align-items: flex-start;
+    max-width: none;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 180px 180px;
+    column-gap: 20px;
+    grid-template-areas: 
+    " houseMateimg"
+    "seeMore houseMateimg";
+}
+.RecomondoImg{
+    grid-area: houseMateimg;
+    box-shadow: #373738,;
+    -webkit-box-shadow: 4px 1px 2px 2px #c4c4c4;  
+    -moz-box-shadow: #c4c4c4 1px 2px 10px 2px;  
+    box-shadow: #c4c4c4 0px 5px 3px 2px;
+}
+
+
+/* jquery */
+#seeMore a{
+    background: lighten(#F59836, 3%);  
+    border: 1px solid darken(#F59836, 4%);
+    box-shadow: 0px 2px 0 darken(#F59836
+    , 5%), 2px 4px 6px darken($red, 2%);
+    font-weight: 900;
+    letter-spacing: 1px;
+    transition: all 150ms linear;
+}
+#resume :hover{
+color: #F59836;
+letter-spacing: 1px;
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0s ease 0s;
+transform: scale(2);
+}
+.topNav :hover{
+color: #F59836;
+opacity: 80%;
+}
+#conDeets :hover{
+background-color: rgba(183, 176, 232, .30) ;
+text-size-adjust: 10px;
+
+}
+
+
+/* MEDIA QUERY MOBILE*/
+@media only screen and (max-width: 600px){
+.myWork{
+    display: flex;
+}
+.myWork p{
+    font-size: 15px;
+}
+.workGrid p{
+    font-size: 15px;
+
+}
+.bushFireWRD{
+    align-items: center;
+    justify-content: flex-end;
+    max-width: none;
+}
+#bushCont{
+    align-items: flex-end;
+}
+#houseMate{
+
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 180px 180px;
+    column-gap: 20px;
+}
+#recomondo{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 180px 180px;
+    grid-template-areas: 
+    "recomondoImg"
+    "recomondoImg seeMore" ;
+    column-gap: 20px;
+    font-size: 
+    15px;
+}
